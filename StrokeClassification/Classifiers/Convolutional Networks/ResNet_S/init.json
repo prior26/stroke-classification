@@ -1,0 +1,10 @@
+{
+    "BATCH_SIZE": 128,
+    "BATCH_LOAD": 128,
+    "COMPLETED_FOLD": 9,
+    "LEARNING_RATE": 0.01,
+    "LR_SCHEDULAR": "CAWR",
+    "LRS_PATIENCE": 10,
+    "LRS_FACTOR": 0.5,
+    "FREEZE_TO_LAYER": "layer3.12"
+}

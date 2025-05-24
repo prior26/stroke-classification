@@ -1,0 +1,21 @@
+{
+    "MODEL_NAME": "ResNet_S",
+    "MODEL_CUSTOM_NAME": "",
+    "MODEL_TYPE": "conv",
+    "DEVICE": "cpu",
+    "STRATEGY": "soft-attention",
+    "LOAD_CHECKPOINT": false,
+    
+    "K_FOLD": 10,
+    "TRAIN_EPOCHS": 50,
+    "FINE_TUNE_EPOCHS": 0,
+    "PERSISTENCE": 300,
+    "IMG_SIZE": [1, 224, 224],
+    "AUTO_BREAK": true,
+
+    "SERVER_USERNAME": "",
+    "SERVER_FOLDER": "StrokeClassification",
+    "SERVER_URL": "",
+    "PATH_DATASET_TRAIN": "Data/Compiled/Train",
+    "PATH_DATASET_TEST": ""
+}
